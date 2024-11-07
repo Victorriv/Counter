@@ -17,4 +17,5 @@
     background-color: rgb(38, 175, 130);
     border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.25s;
 }
