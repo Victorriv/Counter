@@ -1,4 +1,4 @@
-const decrease = document.getElementById("decreaseBtn");
+const decreaseBtn = document.getElementById("decreaseBtn");
 const resetBtn = document.getElementById("resetBtn");
 const increaseBtn = document.getElementById("increaseBtn");
 const countLabel = document.getElementById("countLabel");
@@ -10,5 +10,5 @@ let count = 0; // will be reassigning count, incrementing and decrementing it.
 
 increaseBtn.onclick = function(){
     count++;
-    
+    countLabel.textContent = count; // text inside count label
 }
