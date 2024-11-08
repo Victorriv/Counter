@@ -9,6 +9,6 @@ let count = 0; // will be reassigning count, incrementing and decrementing it.
 
 
 increaseBtn.onclick = function(){
-    
+    count++;
     
 }
