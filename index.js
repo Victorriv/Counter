@@ -22,6 +22,7 @@ decreaseBtn.onclick = function(){
 
 
 resetBtn.onclick = function(){
-
+    count = 0;
+    
 
 }
