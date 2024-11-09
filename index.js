@@ -21,7 +21,7 @@ decreaseBtn.onclick = function(){
 }
 
 
-resetBtn.onclick = fuction(){
-    
+resetBtn.onclick = function(){
+
 
 }
