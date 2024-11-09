@@ -16,6 +16,6 @@ increaseBtn.onclick = function(){
 
 decreaseBtn.onclick = function(){
     count--;
-    
+    countLabel.textContent = count; 
 
 }
